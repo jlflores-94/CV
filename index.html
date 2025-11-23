@@ -5,8 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>José Luis Flores - Full Stack Engineer</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <style>
+        [lang="es"] { display: none; }
+        .lang-toggle { cursor: pointer; margin: 10px; }
+    </style>
+    <style>
+
+        .contact {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* tono claro para contraste */
+}
+
+.contact .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact .form-group {
+  margin-bottom: 20px;
+}
+
+.contact label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact .btn-principal {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact .btn-principal:hover {
+  background-color: #0056b3;
+}
+
+.contact .form-note {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.contact .form-note a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact .form-note a:hover {
+  text-decoration: underline;
+}
+
+.contact-extra {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-extra p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.contact-extra a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-extra a:hover {
+  text-decoration: underline;
+}
+
+    </style>
+
 </head>
 <body id="page-top">
+    
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">José Luis Flores - Full Stack Engineer</a>
@@ -44,49 +152,210 @@
             </div>
 
             <div class="row text-center">
-                <div class="col-lg-4"><h4>Frontend</h4><p>HTML, CSS, JavaScript, Vue.js, React.js, Vuetify, Bootstrap, Materialize</p></div>
-                <div class="col-lg-4"><h4>Backend</h4><p>PHP, Laravel (MVC), PostgreSQL, MySQL, API REST</p></div>
-                <div class="col-lg-4"><h4>Integrations & Tools</h4><p>Stripe, Mercado Pago, OAuth (Google, Naver), Git, Linux, Postman</p></div>
+                <div class="row text-center">
+    <div class="col-lg-4">
+        <h4>Frontend</h4>
+        <ul class="list-unstyled">
+            <li><i class="devicon-html5-plain colored"></i> HTML</li>
+            <li><i class="devicon-css3-plain colored"></i> CSS</li>
+            <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+            <li><i class="devicon-vuejs-plain colored"></i> Vue.js</li>
+            <li><i class="devicon-react-original colored"></i> React.js</li>
+            <li><i class="devicon-vuetify-plain colored"></i> Vuetify</li>
+            <li><i class="devicon-bootstrap-plain colored"></i> Bootstrap</li>
+            <li><i class="devicon-materialize-plain colored"></i> Materialize</li>
+            <li><i class="devicon-angularjs-plain colored"></i> Angular</li>
+        </ul>
+    </div>
+
+    <div class="col-lg-4">
+        <h4>Backend</h4>
+        <ul class="list-unstyled">
+            <li><i class="devicon-php-plain colored"></i> PHP</li>
+            <li><i class="devicon-laravel-plain colored"></i> Laravel (MVC)</li>
+            <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
+            <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+            <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
+        </ul>
+    </div>
+
+    <div class="col-lg-4">
+        <h4>Integrations & Tools</h4>
+        <ul class="list-unstyled">
+            <li><i class="devicon-stripe-plain colored"></i> Stripe</li>
+            <li><i class="fas fa-credit-card"></i> Mercado Pago</li>
+            <li><i class="devicon-google-plain"></i> OAuth (Google, Naver)</li>
+            <li><i class="devicon-git-plain colored"></i> Git</li>
+            <li><i class="devicon-linux-plain colored"></i> Linux</li>
+            <li><i class="fas fa-vial"></i> Postman</li>
+        </ul>
+    </div>
+</div>
             </div>
         </div>
     </section>
 
-    <section class="page-section bg-primary text-white mb-0" id="about">
+    <section class="page-section portfolio" id="experience">
         <div class="container">
-            <h2 class="text-center text-uppercase text-white">About</h2>
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <p class="lead">
-                        Ingeniero de Sistemas con experiencia en desarrollo web fullstack utilizando Laravel, Vue.js y React.js.
-                        He trabajado en entornos remotos internacionales comunicándome enteramente en inglés, integrando APIs,
-                        autenticaciones y pasarelas de pago. Apasionado por crear soluciones escalables, seguras y centradas en el usuario.
-                    </p>
-                    <p class="lead"><b>Ubicación:</b> Maturín, Venezuela</p>
-                    <p class="lead"><b>Portafolio:</b> <a style="color: #fff;" href="https://jlflores-94.github.io/CV" target="_blank">https://jlflores-94.github.io/CV</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section" id="contact">
-        <div class="container">
-            <h2 class="text-center text-uppercase text-secondary mb-0">Contact</h2>
+            <h2 class="text-center text-uppercase text-secondary mb-0" lang="es">Experiencia</h2>
+            <h2 class="text-center text-uppercase text-secondary mb-0" lang="en">Experience</h2>
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
-            <div class="text-center">
-                <p><b>Email:</b> jlfl94@gmail.com</p>
-                <p><b>Teléfono:</b> +58 4120879088</p>
-                <p><b>LinkedIn:</b> <a href="https://linkedin.com/in/josé-luis-flores-lópez-fullstack" target="_blank">Ver perfil</a></p>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 lang="es">UnifyQ LLC - Backend Developer (Feb 2024 - Oct 2025, Remoto)</h4>
+                    <h4 lang="en">UnifyQ LLC - Backend Developer (Feb 2024 - Oct 2025, Remote)</h4>
+                    <p lang="es">Integración con servicios de Google, desarrollo de APIs para sistemas de ventas y reservas, diseño lógico y modelado de datos.</p>
+                    <p lang="en">Integration with Google services, API development for sales and booking systems, logical design and data modeling.</p>
+                    <p><b>Technologies:</b> Laravel, PostgreSQL, REST APIs, Google OAuth</p>
+                </div>
+
+                <div class="col-lg-12 mt-4">
+                    <h4 lang="es">Thernloven - Backend Developer (Feb 2023 - Feb 2024, Buenos Aires)</h4>
+                    <h4 lang="en">Thernloven - Backend Developer (Feb 2023 - Feb 2024, Buenos Aires)</h4>
+                    <p lang="es">Modelado de datos en Laravel, integración de pagos con Stripe y Mercado Pago, autenticación con Google y Naver.</p>
+                    <p lang="en">Data modeling in Laravel, payment integration with Stripe and Mercado Pago, authentication with Google and Naver.</p>
+                    <p><b>Technologies:</b> Laravel, MySQL, Stripe, Mercado Pago, OAuth</p>
+                </div>
+
+                <div class="col-lg-12 mt-4">
+                    <h4 lang="es">Joga Fantasy - Backend Developer (Feb 2022 - Ene 2023, San Diego)</h4>
+                    <h4 lang="en">Joga Fantasy - Backend Developer (Feb 2022 - Jan 2023, San Diego)</h4>
+                    <p lang="es">Desarrollo de APIs y Jobs en Laravel, configuración de Mailtrap.io, migraciones en PostgreSQL.</p>
+                    <p lang="en">API and job development in Laravel, Mailtrap.io configuration, PostgreSQL migrations.</p>
+                    <p><b>Technologies:</b> Laravel, PostgreSQL, Mailtrap.io</p>
+                </div>
+
+                <div class="col-lg-12 mt-4">
+                    <h4 lang="es">Proyecto GESTIDOC - Frontend Developer (Abr 2018 - Dic 2020, Asunción)</h4>
+                    <h4 lang="en">GESTIDOC Project - Frontend Developer (Apr 2018 - Dec 2020, Asunción)</h4>
+                    <p lang="es">Reingeniería de vistas (Blade a Vue.js), maquetación e integración con APIs, desarrollo de endpoints en Laravel.</p>
+                    <p lang="en">View reengineering (Blade to Vue.js), layout and API integration, endpoint development in Laravel.</p>
+                    <p><b>Technologies:</b> Vue.js, Laravel, Bootstrap</p>
+                </div>
+
+                <div class="col-lg-12 mt-4">
+                    <h4 lang="es">Debmedia - QA y Soporte Técnico (Abr 2018 - Dic 2020, Buenos Aires)</h4>
+                    <h4 lang="en">Debmedia - QA & Technical Support (Apr 2018 - Dec 2020, Buenos Aires)</h4>
+                    <p lang="es">Testing de software, soporte remoto, diseño gráfico para cartelería digital.</p>
+                    <p lang="en">Software testing, remote support, graphic design for digital signage.</p>
+                    <p><b>Technologies:</b> QA tools, Postman, Linux</p>
+                </div>
+
+                <div class="col-lg-12 mt-4">
+                    <h4 lang="es">Soluciones Teranvo - Web Designer (Mar 2018 - Dic 2020, Maturín)</h4>
+                    <h4 lang="en">Soluciones Teranvo - Web Designer (Mar 2018 - Dec 2020, Maturín)</h4>
+                    <p lang="es">Diseño de wireframes, maquetación en Angular, consumo e integración de APIs.</p>
+                    <p lang="en">Wireframe design, Angular layout, API consumption and integration.</p>
+                    <p><b>Technologies:</b> Angular, HTML, CSS, JavaScript</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <section id="contacto" class="contact" lang="es">
+        <h3 class="section-title" data-section-number="4">¿Hablamos de tu Proyecto?</h3>
+        
+        <form id="contactFormEs" action="https://getform.io/f/axozdojb" method="POST">
+            <input type="hidden" name="_gotcha" style="display:none !important">
+            
+            <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message"><i class="fas fa-comment-dots"></i> Mensaje</label>
+                <textarea id="message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto o idea..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-principal">
+                <i class="fas fa-paper-plane"></i> Enviar Mensaje
+            </button>
+            
+            <p class="form-note">
+                💡 <b>Nota:</b> Este formulario es procesado de forma segura por 
+                <a href="https://getform.io/" target="_blank">Getform</a>.
+            </p>
+        </form>
+
+        <div class="contact-extra">
+            <p><i class="fas fa-map-marker-alt"></i> Maturín, Venezuela</p>
+            <p><i class="fas fa-envelope"></i> jlfl94@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +58 412-0879088</p>
+            <p><i class="fab fa-linkedin"></i> 
+                <a href="https://linkedin.com/in/josé-luis-flores-lópez-fullstack" target="_blank">
+                    Perfil en LinkedIn
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact in English -->
+    <section id="contact" class="contact" lang="en">
+        <h3 class="section-title" data-section-number="4">Let's talk about your project</h3>
+        
+        <form id="contactFormEn" action="https://getform.io/f/axozdojb" method="POST">
+            <input type="hidden" name="_gotcha" style="display:none !important">
+            
+            <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-principal">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            
+            <p class="form-note">
+                💡 <b>Note:</b> This form is securely processed by 
+                <a href="https://getform.io/" target="_blank">Getform</a>.
+            </p>
+        </form>
+
+        <div class="contact-extra">
+            <p><i class="fas fa-map-marker-alt"></i> Maturín, Venezuela</p>
+            <p><i class="fas fa-envelope"></i> jlfl94@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +58 412-0879088</p>
+            <p><i class="fab fa-linkedin"></i> 
+                <a href="https://linkedin.com/in/josé-luis-flores-lópez-fullstack" target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+        </div>
+    </section>
+    <script>
+script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-block').forEach(el => {
+    el.style.display = (el.getAttribute('lang') === lang) ? '' : 'none';
+  });
+}
+// idioma por defecto
+setLang('es');
+</script>
+
+</script>
+
 </body>
+
 </html>
