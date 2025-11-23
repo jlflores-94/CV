@@ -1,33 +1,36 @@
-# ![https://github.com/jlflores-94](https://avatars.githubusercontent.com/u/43612348?v=4) Hola, mi nombre es Rafael Emilio Guzman 👋
-### Freelance full-stack Web & Android developer
+# ![https://github.com/jlflores-94](https://avatars.githubusercontent.com/u/43612348?v=4) 
+Hola, mi nombre es José Luis Flores 👋  
+### Fullstack Software Developer | Systems Engineer  
 
-Soy desarrollador de software profesional desde el 2018.
+Soy desarrollador de software profesional con experiencia desde 2018, especializado en **Laravel, Vue.js y React.js**, trabajando en entornos internacionales 100% en inglés e integrando APIs, autenticaciones y pasarelas de pago.  
 
 ## Tecnologías:
 
 </br>
-[![Php](https://img.shields.io/badge/Php-yellow?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)]()
+[![Php](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=101010)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)]()
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=101010)]()
-[![Google_Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white&labelColor=101010)]()
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=101010)]()
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white&labelColor=101010)]()
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)]()
 </br>
-[![Node.JS](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)]()
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)]()
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010)]()
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=101010)]()
+[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=stripe&logoColor=white&labelColor=101010)]()
+[![OAuth](https://img.shields.io/badge/OAuth-000000?style=for-the-badge&logo=openid&logoColor=white&labelColor=101010)]()
 </br>
-Y alguna más...
+Y algunas más...
 
 ## Encuéntrame en:
 
 </br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-regf12-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/jos%C3%A9-luis-flores-l%C3%B3pez-fullstack/)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-José_Luis_Flores-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/jos%C3%A9-luis-flores-l%C3%B3pez-fullstack/)
+[![Portafolio](https://img.shields.io/badge/Portfolio-jlflores--94.github.io/CV-000000?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://jlflores-94.github.io/CV)
 
 ## Contacto:
 
 </br>
 
-[![Email](https://img.shields.io/badge/jlfl94@gmail.com-email_personal_(respuesta_lenta)-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:jlfl94@gmail.com)
-
+[![Email](https://img.shields.io/badge/jlfl94@gmail.com-email_personal-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010)](mailto:jlfl94@gmail.com)
+[![Teléfono](https://img.shields.io/badge/+58_4120879088-Contacto-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=101010)]()
 </br>
